@@ -1,0 +1,9 @@
+mkdir -p ~/sistemasOperativos
+touch ~/sistemasOperativos/file{1,2,3}
+mkdir -p ~/sistemasOperativos/proyecto
+mv ~/sistemasOperativos/file1 ~/sistemasOperativos/file3 ~/sistemasOperativos/proyecto
+echo "Soy el fichero2" > ~/sistemasOperativos/file2
+mv ~/sistemasOperativos/file2 ~/sistemasOperativos/proyecto
+mv ~/sistemasOperativos/proyecto/file2 ~/sistemasOperativos/proyecto/file2updated
+cat ~/sistemasOperativos/proyecto/file2updated
+
