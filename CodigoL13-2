@@ -1,9 +1,0 @@
-echo "Introduce 2 números separados por un espacio (el primero debe ser menor que el segundo):"
-read num1 num2
-for (( i=num1; i<=num2; i++ )); do
-  if [ $i -eq 6 ]; then
-    continue
-  fi
-  echo $i
-done
-
