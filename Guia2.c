@@ -6,7 +6,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-#define PUERTO 8000
+#define PUERTO 9050
 
 // Funciones para conversión
 float convertir_a_fahrenheit(float celsius) {
